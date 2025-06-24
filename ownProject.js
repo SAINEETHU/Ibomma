@@ -18,3 +18,18 @@ let image=document.querySelectorAll("img");
 // });
 // });
 
+let btns = document.querySelectorAll("#button");
+// let btns=document.getElementsByClassName("btn");
+
+// for(let btn of btns){
+// btn.addEventListener("click", ()=>{
+//     console.log("button was clicked");
+// })
+// };
+
+btns.forEach((btn)=>
+ btn.addEventListener("click", ()=>{
+     console.log("button was clicked");
+
+ })
+);
